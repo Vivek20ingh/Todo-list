@@ -1,4 +1,6 @@
 var express = require('express');
+const db = require("./controllers/db/db");
+db();
 
 var todoController = require('./controllers/todoController');
 
